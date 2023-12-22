@@ -1,0 +1,9 @@
+com.facebook.katanb
+com.facebook.katanc
+com.facebook.katand
+com.facebook.katane
+com.facebook.katanf
+com.facebook.katang
+com.facebook.katanh
+com.facebook.katani
+com.facebook.katanj

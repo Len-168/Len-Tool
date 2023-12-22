@@ -1,16 +1,37 @@
-import time
+
 import emulator
 
 ld = emulator.LDPlayer(ldplayer_dir='F:/LDPlayer/LDPlayer9')
-# print(ld.emulators)
 
 
-em = ld.emulators [6] 
+
+em = ld.emulators [8] 
 em.start ()
-time.sleep(10)
-# em.run_app(package_name="com.facebook.katanb")
-
+em.wait_to_started()
 
 packages = em.list_packages()
 
 print(packages)
+
+
+# import random
+
+# RandomLike = [1,2,3,4,5,6,7,8,9,0]
+
+# Like = random.choice(RandomLike)
+
+# if  Like == 0 or Like == 2 or Like == 5 or Like == 7 or Like == 9:
+#     print("OK"+str(Like))
+
+
+
+# i = 0
+# while i < 9:
+
+#     getApp = open('Packge/app.txt', 'r')
+#     App = getApp.readlines()
+#     code = App[i]
+#     i += 1
+
+#     print(code)
+                        
